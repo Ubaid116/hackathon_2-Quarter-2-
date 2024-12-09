@@ -104,7 +104,7 @@ interface FilterState {
 }
 
 export default function CarSection() {
-  const [filters, setFilters] = useState<FilterState>({
+  const [filters] = useState<FilterState>({
     types: [],
     capacities: [],
     maxPrice: 100

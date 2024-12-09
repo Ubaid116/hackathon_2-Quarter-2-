@@ -196,7 +196,7 @@ export default function CarDetailPage() {
         </div>
 
         <p className="text-muted-foreground">
-          NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the "race track".
+          NISMO has become the embodiment of Nissan &apos;s outstanding performance, inspired by the most unforgiving proving ground, the &quot;race track&quot;.
         </p>
 
         <div className="grid grid-cols-2 gap-4">

@@ -11,7 +11,7 @@ interface FilterState {
 }
 
 export default function Dashboard() {
-  const [filters, setFilters] = useState<FilterState>({
+  const [, setFilters] = useState<FilterState>({
     types: [],
     capacities: [],
     maxPrice: 100
