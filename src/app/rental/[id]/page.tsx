@@ -1,12 +1,6 @@
 import { NextPage } from 'next'
 
-interface RentalPageProps {
-  params: {
-    id: string;
-  };
-}
-
-const RentalPage: NextPage<RentalPageProps> = ({ params }) => {
+const RentalPage: NextPage<{ params: any }> = ({ params }) => {
   return (
     <div className="container mx-auto px-4 py-8 md:px-6">
       <div className="grid gap-8 md:grid-cols-2">
