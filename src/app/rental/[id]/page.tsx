@@ -1,3 +1,4 @@
+import { NextPage } from 'next'
 
 interface RentalPageProps {
   params: {
@@ -5,7 +6,7 @@ interface RentalPageProps {
   };
 }
 
-const RentalPage: React.FC<RentalPageProps> = ({ params }) => {
+const RentalPage: NextPage<RentalPageProps> = ({ params }) => {
   return (
     <div className="container mx-auto px-4 py-8 md:px-6">
       <div className="grid gap-8 md:grid-cols-2">
@@ -20,7 +21,7 @@ const RentalPage: React.FC<RentalPageProps> = ({ params }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default RentalPage;
+export default RentalPage
